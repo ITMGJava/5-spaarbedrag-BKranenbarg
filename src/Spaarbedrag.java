@@ -23,10 +23,10 @@ public class Spaarbedrag {
         for (int x = 1; x <= 10; x++) {
             //getal wordt elk jaar vermeerderd met rente r
             getal = getal + getal * r;
-            //string weergeven voor tafel
-            output = "Jaar " + x + ": " + getal;
-            //output weergeven
-            System.out.println(output);
+            //string weergeven voor rentes afgerond op 2 decimalen
+            System.out.printf("%n Jaar " + x + ": %.2f", getal);
+
+
 
         }
 
